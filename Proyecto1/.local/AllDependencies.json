@@ -7577,9 +7577,9 @@
     "restore": {
       "projectUniqueName": "Proyecto1",
       "projectName": "Proyecto1",
-      "projectPath": "D:\\Usac\\Inteligencia Artificial 1\\Laboratorio\\Proyecto1\\.local",
+      "projectPath": "D:\\Usac\\Inteligencia Artificial 1\\Laboratorio\\Inteligencia-Artificial-1\\Proyecto1\\.local",
       "packagesPath": "C:\\Users\\selvi\\.nuget\\packages\\",
-      "outputPath": "D:\\Usac\\Inteligencia Artificial 1\\Laboratorio\\Proyecto1\\.local"
+      "outputPath": "D:\\Usac\\Inteligencia Artificial 1\\Laboratorio\\Inteligencia-Artificial-1\\Proyecto1\\.local"
     },
     "frameworks": {
       "net461": {
@@ -7605,7 +7605,7 @@
             "version": "[21.10.4, 21.10.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\selvi\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

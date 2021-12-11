@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/KDsIQ3qLWfUdrURrgBIp7gf41jCLJKcYQs5AWxB8YUIDY/J3D7nfvtMt58MSm11UUzC8Z00vcdaiQ/YkW2rQ==",
+  "dgSpecHash": "e465c4ySPAWTD6ep6QXKmp2kq4eD6JO9vtjBTnp5TlqIhliHkZfL3B/2FcaJFGz8QWPcjn5ec+HCbZEEjCJDfg==",
   "success": true,
-  "projectFilePath": "D:\\Usac\\Inteligencia Artificial 1\\Laboratorio\\Proyecto1\\.local\\",
+  "projectFilePath": "D:\\Usac\\Inteligencia Artificial 1\\Laboratorio\\Inteligencia-Artificial-1\\Proyecto1\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\selvi\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\selvi\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
