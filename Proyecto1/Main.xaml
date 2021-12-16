@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="729,890" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System" xmlns:sc1="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="730,3883" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System" xmlns:sc1="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -96,7 +96,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="442,825" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="740,3818" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="pathcsv" />
       <Variable x:TypeArguments="sd:DataTable" Name="datosarchivo" />
@@ -174,7 +174,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Secuencia Lectura" sap:VirtualizedContainerService.HintSize="400,416" sap2010:WorkflowViewState.IdRef="Sequence_29">
+    <Sequence DisplayName="Secuencia Lectura" sap:VirtualizedContainerService.HintSize="698,416" sap2010:WorkflowViewState.IdRef="Sequence_29">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -275,7 +275,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
-      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="434,358" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="x:String">
             <ActivityAction.Argument>
@@ -671,26 +671,26 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:ForEach>
     </Sequence>
-    <ueab:SequenceX DisplayName="Ámbito del proceso de Excel único" sap:VirtualizedContainerService.HintSize="400,80" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX DisplayName="Ámbito del proceso de Excel único" sap:VirtualizedContainerService.HintSize="698,2242" sap2010:WorkflowViewState.IdRef="SequenceX_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Utilice el archivo de Excel" sap:VirtualizedContainerService.HintSize="434,727" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="reportes\\reporte_201701133.xlsx">
+      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Utilice el archivo de Excel" sap:VirtualizedContainerService.HintSize="636,2130" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="reportes\\reporte_201701133.xlsx">
         <ueab:ExcelApplicationCard.Body>
           <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="242,461" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="602,1864" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_8">
+              <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="560,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_8">
                 <ui:MultipleAssign.AssignOperations>
                   <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                     <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_30">
@@ -724,7 +724,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:MultipleAssign>
-              <Sequence DisplayName="Hoja1" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <Sequence DisplayName="Hoja1" sap:VirtualizedContainerService.HintSize="560,66" sap2010:WorkflowViewState.IdRef="Sequence_13">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Int32" Default="0" Name="whilehoja1" />
                 </Sequence.Variables>
@@ -1020,14 +1020,14 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:InterruptibleWhile>
               </Sequence>
-              <Sequence DisplayName="Hoja2" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_14">
+              <Sequence DisplayName="Hoja2" sap:VirtualizedContainerService.HintSize="560,1469" sap2010:WorkflowViewState.IdRef="Sequence_14">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Encabezado de Hoja2" sap:VirtualizedContainerService.HintSize="242,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                <Sequence DisplayName="Encabezado de Hoja2" sap:VirtualizedContainerService.HintSize="518,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1183,14 +1183,14 @@
                     </ui:MultipleAssign.AssignOperations>
                   </ui:MultipleAssign>
                 </Sequence>
-                <Sequence DisplayName="Secuencia de Hoja2" sap:VirtualizedContainerService.HintSize="242,582" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                <Sequence DisplayName="Secuencia de Hoja2" sap:VirtualizedContainerService.HintSize="518,1271" sap2010:WorkflowViewState.IdRef="Sequence_23">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Secuencia Media" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                  <Sequence DisplayName="Secuencia Media" sap:VirtualizedContainerService.HintSize="476,66" sap2010:WorkflowViewState.IdRef="Sequence_24">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1302,7 +1302,7 @@
                       </ui:MultipleAssign.AssignOperations>
                     </ui:MultipleAssign>
                   </Sequence>
-                  <Sequence DisplayName="Secuencia Mediana" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                  <Sequence DisplayName="Secuencia Mediana" sap:VirtualizedContainerService.HintSize="476,66" sap2010:WorkflowViewState.IdRef="Sequence_27">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1408,7 +1408,7 @@
                       </ui:MultipleAssign.AssignOperations>
                     </ui:MultipleAssign>
                   </Sequence>
-                  <Sequence DisplayName="Secuencia Moda" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                  <Sequence DisplayName="Secuencia Moda" sap:VirtualizedContainerService.HintSize="476,66" sap2010:WorkflowViewState.IdRef="Sequence_28">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1514,14 +1514,14 @@
                       </ui:MultipleAssign.AssignOperations>
                     </ui:MultipleAssign>
                   </Sequence>
-                  <Sequence DisplayName="Secuencia Mejor Nota" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                  <Sequence DisplayName="Secuencia Mejor Nota" sap:VirtualizedContainerService.HintSize="476,66" sap2010:WorkflowViewState.IdRef="Sequence_32">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_39">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="WriteCellX_39">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_186">Excel.Sheet["Hoja2"].Cell["E2"]</mca:CSharpValue>
@@ -1529,11 +1529,17 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_197">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!D2:D"+(posarray+1)+"),Hoja1!D2:D"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_282">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!D2:D"+(posarray+1)+"),Hoja1!D2:D"+(posarray+1)+",0),FALSE),\" \" , INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MAX(Hoja1!D2:D"+(posarray+1)+"),Hoja1!D2:D"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_40">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="WriteCellX_40">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_198">Excel.Sheet["Hoja2"].Cell["E3"]</mca:CSharpValue>
@@ -1541,11 +1547,17 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_199">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!E2:E"+(posarray+1)+"),Hoja1!E2:E"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_283">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!E2:E"+(posarray+1)+"),Hoja1!E2:E"+(posarray+1)+",0),FALSE), \" \" ,INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MAX(Hoja1!E2:E"+(posarray+1)+"),Hoja1!E2:E"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_41">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="WriteCellX_41">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_200">Excel.Sheet["Hoja2"].Cell["E4"]</mca:CSharpValue>
@@ -1553,11 +1565,17 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_201">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!F2:F"+(posarray+1)+"),Hoja1!F2:F"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_284">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!F2:F"+(posarray+1)+"),Hoja1!F2:F"+(posarray+1)+",0),FALSE),\" \" ,INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MAX(Hoja1!F2:F"+(posarray+1)+"),Hoja1!F2:F"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_42">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="WriteCellX_42">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_202">Excel.Sheet["Hoja2"].Cell["E5"]</mca:CSharpValue>
@@ -1565,11 +1583,17 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_203">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!G2:G"+(posarray+1)+"),Hoja1!G2:G"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_285">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MAX(Hoja1!G2:G"+(posarray+1)+"),Hoja1!G2:G"+(posarray+1)+",0),FALSE),\" \" ,INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MAX(Hoja1!G2:G"+(posarray+1)+"),Hoja1!G2:G"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
-                    <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="434,193" sap2010:WorkflowViewState.IdRef="MultipleAssign_13">
+                    <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_13">
                       <ui:MultipleAssign.AssignOperations>
                         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_48">
@@ -1618,16 +1642,22 @@
                           </ui:AssignOperation>
                         </scg:List>
                       </ui:MultipleAssign.AssignOperations>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ui:MultipleAssign>
                   </Sequence>
-                  <Sequence DisplayName="Secuencia Menor Nota" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                  <Sequence DisplayName="Secuencia Menor Nota" sap:VirtualizedContainerService.HintSize="476,755" sap2010:WorkflowViewState.IdRef="Sequence_33">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_43">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="WriteCellX_43">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_204">Excel.Sheet["Hoja2"].Cell["F2"]</mca:CSharpValue>
@@ -1635,9 +1665,15 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_205">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!D2:D"+(posarray+1)+"),Hoja1!D2:D"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_286">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!D2:D"+(posarray+1)+"),Hoja1!D2:D"+(posarray+1)+",0),FALSE),\" \",INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MIN(Hoja1!D2:D"+(posarray+1)+"),Hoja1!D2:D"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
                     <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_44">
                       <ueab:WriteCellX.Cell>
@@ -1647,11 +1683,17 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_207">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!E2:E"+(posarray+1)+"),Hoja1!E2:E"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_290">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!E2:E"+(posarray+1)+"),Hoja1!E2:E"+(posarray+1)+",0),FALSE),\" \",INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MIN(Hoja1!E2:E"+(posarray+1)+"),Hoja1!E2:E"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_45">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="WriteCellX_45">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_208">Excel.Sheet["Hoja2"].Cell["F4"]</mca:CSharpValue>
@@ -1659,11 +1701,17 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_209">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!F2:F"+(posarray+1)+"),Hoja1!F2:F"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_288">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!F2:F"+(posarray+1)+"),Hoja1!F2:F"+(posarray+1)+",0),FALSE),\" \",INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MIN(Hoja1!F2:F"+(posarray+1)+"),Hoja1!F2:F"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
-                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="WriteCellX_46">
+                    <ueab:WriteCellX DisplayName="Escribir celda" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="WriteCellX_46">
                       <ueab:WriteCellX.Cell>
                         <InArgument x:TypeArguments="ue:IReadWriteCellRef">
                           <mca:CSharpValue x:TypeArguments="ue:IReadWriteCellRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_210">Excel.Sheet["Hoja2"].Cell["F5"]</mca:CSharpValue>
@@ -1671,9 +1719,15 @@
                       </ueab:WriteCellX.Cell>
                       <ueab:WriteCellX.Value>
                         <InArgument x:TypeArguments="x:Object">
-                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_211">"=INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!G2:G"+(posarray+1)+"),Hoja1!G2:G"+(posarray+1)+",0),FALSE)"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_289">"=CONCAT(INDEX(Hoja1!B2:B"+(posarray+1)+",MATCH(MIN(Hoja1!G2:G"+(posarray+1)+"),Hoja1!G2:G"+(posarray+1)+",0),FALSE),\" \",INDEX(Hoja1!C2:C"+(posarray+1)+",MATCH(MIN(Hoja1!G2:G"+(posarray+1)+"),Hoja1!G2:G"+(posarray+1)+",0),FALSE))"</mca:CSharpValue>
                         </InArgument>
                       </ueab:WriteCellX.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
                     </ueab:WriteCellX>
                     <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="434,193" sap2010:WorkflowViewState.IdRef="MultipleAssign_14">
                       <ui:MultipleAssign.AssignOperations>
@@ -1728,7 +1782,7 @@
                   </Sequence>
                 </Sequence>
               </Sequence>
-              <Sequence DisplayName="Hoja3" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
+              <Sequence DisplayName="Hoja3" sap:VirtualizedContainerService.HintSize="560,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1959,26 +2013,26 @@
         </sap:WorkflowViewStateService.ViewState>
       </ueab:ExcelApplicationCard>
     </ueab:SequenceX>
-    <Sequence DisplayName="Secuencia Correo" sap:VirtualizedContainerService.HintSize="400,66" sap2010:WorkflowViewState.IdRef="Sequence_31">
+    <Sequence DisplayName="Secuencia Correo" sap:VirtualizedContainerService.HintSize="698,897" sap2010:WorkflowViewState.IdRef="Sequence_31">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Account="selvin.lisandro@gmail.com" DisplayName="Utilizar Gmail" EmailAddress="selvin.lisandro@gmail.com" sap:VirtualizedContainerService.HintSize="510,854" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_1" Timeout="90" UseConnectionService="False">
+      <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Account="selvin.lisandro@gmail.com" DisplayName="Utilizar Gmail" EmailAddress="selvin.lisandro@gmail.com" sap:VirtualizedContainerService.HintSize="510,805" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_1" Timeout="90" UseConnectionService="False">
         <umab:GmailApplicationCard.Body>
           <ActivityAction x:TypeArguments="um:IMailQuickHandle">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Gmail" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="476,675" sap2010:WorkflowViewState.IdRef="Sequence_34">
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="476,626" sap2010:WorkflowViewState.IdRef="Sequence_34">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="434,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_17">
+              <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_17">
                 <ui:MultipleAssign.AssignOperations>
                   <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                     <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_70">
@@ -1995,6 +2049,12 @@
                     </ui:AssignOperation>
                   </scg:List>
                 </ui:MultipleAssign.AssignOperations>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
               </ui:MultipleAssign>
               <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" BodyType="Text" DisplayName="Enviar correo electrónico" sap:VirtualizedContainerService.HintSize="434,443" sap2010:WorkflowViewState.IdRef="SendMailX_2" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Reporte de Notas Finales Finalizada - 201701133" UseDocumentAsBody="False">
                 <umab:SendMailX.Account>
@@ -2004,8 +2064,8 @@
                 </umab:SendMailX.Account>
                 <umab:SendMailX.Body>
                   <InArgument x:TypeArguments="x:String">
-                    <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_266" xml:space="preserve">"Cantidad de estudiantes: " + posarray + "\n" + 
-"Tiempo de ejecución: " + ((fechafin - fechainicio).TotalSeconds)  + "\n" + 
+                    <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_291" xml:space="preserve">"Cantidad de estudiantes: " + posarray + "\n" + 
+"Tiempo de ejecución: " + ((fechafin - fechainicio).TotalSeconds)  + " s \n" + 
 "Hora de inicio: " + fechainicio + "\n" + 
 "Hora de finalización: " + fechafin + "\n"</mca:CSharpValue>
                   </InArgument>
@@ -2050,9 +2110,15 @@
             <Literal x:TypeArguments="x:String" Value="" />
           </InArgument>
         </umab:GmailApplicationCard.ClientSecret>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </umab:GmailApplicationCard>
     </Sequence>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Bandeja de mensajes" sap:VirtualizedContainerService.HintSize="400,51" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Bandeja de mensajes" sap:VirtualizedContainerService.HintSize="698,51" sap2010:WorkflowViewState.IdRef="MessageBox_1">
       <ui:MessageBox.Text>
         <InArgument x:TypeArguments="x:Object">
           <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_276">"Cantidad de archivos leidos: " + contarchivosleidos</mca:CSharpValue>
